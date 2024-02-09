@@ -1,0 +1,99 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lora', 'Times New Roman', sans-serif;
+    line-height: 1.6;
+    background-color: #FFFFFF;
+}
+
+.topnav {
+    background-color: #eaeaea;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.topnav nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.hero {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.tagline {
+    font-size: 25px;
+    color: #777;
+}
+
+.mission-statement {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+footer {
+    background-color: #eaeaea;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.social-links {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-link {
+    margin: 0 10px;
+    display: inline-block;
+    color: white; /* Icon color */
+    font-size: 24px; /* Change this to scale the size of the icons */
+    width: 40px; /* Width of the circle */
+    height: 40px; /* Height of the circle */
+    background-color: black; /* Circle color */
+    border-radius: 50%; /* Makes it a circle */
+    line-height: 40px; /* Centers the icon vertically */
+    text-align: center; /* Centers the icon horizontally */
+    transition: background-color 0.3s;
+}
+
+.social-link:hover {
+    background-color: #555; /* Darker circle color on hover */
+    text-decoration: none; /* Removes the underline on hover */
+}
+
+.footer-text {
+    text-align: center;
+    color: #000; /* Change this to the color you want for the text */
+    font-size: 16px; /* Change this to the size you want for the text */
+    margin-top: 20px; /* Adjust the space between the social links and the text */
+}
