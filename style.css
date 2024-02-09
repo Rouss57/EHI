@@ -21,7 +21,7 @@ body {
 .topnav nav a {
     float: left;
     display: block;
-    color: white;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -30,7 +30,7 @@ body {
 
 .topnav nav a:hover {
     background-color: #ddd;
-    color: black;
+    color: gray;
 }
 
 .logo img {
@@ -42,6 +42,8 @@ body {
     padding: 50px 20px;
     text-align: center;
 }
+
+
 
 .hero h1 {
     margin-bottom: 10px;
@@ -56,6 +58,10 @@ body {
 .mission-statement {
     background-color: #ffffff;
     padding: 20px;
+    background-image: url('Images/DALLE.webp') !important;
+    background-size: cover; /* This will ensure that your image covers the entire area */
+    background-repeat: no-repeat; /* This ensures the image doesn't tile */
+    background-position: center; /* This will center your image in the area */
 }
 
 footer {
